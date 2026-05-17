@@ -240,7 +240,7 @@ Additionally, German syntax treats subordinate clauses like isolated grammatical
 
 ### III. THE MATHEMATICS
 
-</details>
+<details>
 
 *[Mathematical breakdown pending]*
 
