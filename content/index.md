@@ -35,4 +35,4 @@ During a lesson, a curious student asked: *"What is the Riemann Hypothesis?"* My
 2. **[[history|The History]]**: Context on Göttingen, David Hilbert, and the Millennium Prize.
 3. **[[math|The Mathematics]]**: Proofs and lemmas accessible to competent high school graduates.
 
-*Jetzt beginnen wir zusammen die spannende Reise.*
+*Jetzt beginnen wir zusammen die spannende Reise!*
