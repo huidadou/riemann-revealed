@@ -234,7 +234,70 @@ Additionally, German syntax treats subordinate clauses like isolated grammatical
 
 <details>
 
-*[Historical breakdown pending]*
+The study of prime numbers dates back to the Ancient Greeks.
+Euclid's Elements is one of the most influential works in the history of mathematics. Written in c. 300 BCE, it served as the main textbook for teaching mathematics until well into the 20th century. In Book 9, Proposition 20, Euclid shows by contradiction that prime numbers continue indefinitely.
+Around 240 BCE, Eratosthenes devised the Sieve of Eratosthenes, a simple and systematic algorithm to find all primes up to a given limit, demonstrating an early interest in the systematic identification of prime numbers.
+Mathematical studies in Europe became relatively stagnant in the medieval period, but Islamic mathematicians like Al-Farisi (c. 1267–1319) made contributions to number theory — specifically on amicable numbers and a proof related to factorization — that would influence European mathematicians later.
+In the 17th century, French mathematician Pierre de Fermat explored properties of numbers that would later influence the formal development of number theory. He proposed Fermat's Little Theorem, which is foundational for understanding how primes interact with modular arithmetic.
+Leonhard Euler (1707–1783), a Swiss mathematician widely regarded as one of the most prolific in history, made foundational contributions to the understanding of prime numbers. Most significantly, he demonstrated that the sum of the reciprocals of all primes diverges — an early and powerful result connecting primes to analysis. He also established what is now called the Euler product formula, showing that the series ∑1ns\sum \frac{1}{n^s}
+∑ns1​ can be expressed as an infinite product over all primes — a result that Riemann would later build upon when he extended the function to the complex plane as ζ(s)\zeta(s)
+ζ(s), forging a deep link between prime distribution and analytic methods that would shape number theory for centuries.
+Later in the 18th century, Legendre introduced the prime-counting function π(x)\pi(x)
+π(x), which counts the number of primes less than or equal to a given value xx
+x — a notation and concept that Gauss also worked with independently, and which laid the groundwork for the eventual proof of the Prime Number Theorem in 1896.
+Here is a simplified chronological timeline for the history of prime numbers:
+<div style="display: flex; gap: 10px; font-family: sans-serif; font-size: 0.9em;">
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>c. 300 BCE</strong><br>Euclid
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>Proof of Infinite Primes</strong><br>
+    Showed by contradiction that prime numbers continue indefinitely — Book 9, Proposition 20 of the <em>Elements</em>.
+  </div>
+  <div style="display: flex; align-items: center; color: #888;">&rarr;</div>
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>c. 240 BCE</strong><br>Eratosthenes
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>The Sieve</strong><br>
+    Devised a simple and systematic algorithm to find all primes up to a given limit.
+  </div>
+  <div style="display: flex; align-items: center; color: #888;">&rarr;</div>
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>c. 1290s</strong><br>Al-Farisi
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>Number Theory</strong><br>
+    Contributed to amicable numbers and factorization, bridging Greek and European mathematics.
+  </div>
+</div>
+<br>
+<div style="display: flex; gap: 10px; font-family: sans-serif; font-size: 0.9em;">
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>17th century</strong><br>Pierre de Fermat
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>Fermat's Little Theorem</strong><br>
+    Established a foundational result for understanding how primes interact with modular arithmetic.
+  </div>
+  <div style="display: flex; align-items: center; color: #888;">&rarr;</div>
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>1707–1783</strong><br>Leonhard Euler
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>Euler Product Formula</strong><br>
+    Connected the series $\sum \frac{1}{n^s}$ to an infinite product over all primes — the analytical bridge to Riemann.
+  </div>
+  <div style="display: flex; align-items: center; color: #888;">&rarr;</div>
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Late 18th century</strong><br>Legendre & Gauss
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>Prime-Counting Function</strong><br>
+    Independently introduced $\pi(x)$, laying the groundwork for the Prime Number Theorem.
+  </div>
+  <div style="display: flex; align-items: center; color: #888;">&rarr;</div>
+  <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>1896</strong><br>Hadamard & de la Vallée Poussin
+    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ddd;">
+    <strong>The Definitive Proof</strong><br>
+    Independently proved the Prime Number Theorem using complex analysis built on Riemann's framework.
+  </div>
+</div>
 
 </details>
 
