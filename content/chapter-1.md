@@ -243,10 +243,7 @@ Mathematical studies in Europe became relatively stagnant in the medieval period
 
 In the 17th century, French mathematician Pierre de Fermat explored properties of numbers that would later influence the formal development of number theory. He proposed Fermat's Little Theorem, which is foundational for understanding how primes interact with modular arithmetic.
 
-Leonhard Euler (1707–1783), a Swiss mathematician widely regarded as one of the most prolific in history, made foundational contributions to the understanding of prime numbers. Most significantly, he demonstrated that the sum of the reciprocals of all primes diverges — an early and powerful result connecting primes to analysis. He also established what is now called the Euler product formula, showing that the series $\sum \frac{1}{n^s}$
-
-$∑ns1​$ can be expressed as an infinite product over all primes — a result that Riemann would later build upon when he extended the function to the complex plane as $\zeta(s)$
-$ζ(s)4, forging a deep link between prime distribution and analytic methods that would shape number theory for centuries.
+Leonhard Euler (1707–1783), a Swiss mathematician widely regarded as one of the most prolific in history, made foundational contributions to the understanding of prime numbers. Most significantly, he demonstrated that the sum of the reciprocals of all primes diverges — an early and powerful result connecting primes to analysis. He also established what is now called the Euler product formula, showing that the series $\sum \frac{1}{n^s}$ can be expressed as an infinite product over all primes — a result that Riemann would later build upon when he extended the function to the complex plane as $\zeta(s)$, forging a deep link between prime distribution and analytic methods that would shape number theory for centuries.
 
 Later in the 18th century, Legendre introduced the prime-counting function $\pi(x)$, which counts the number of primes less than or equal to a given value $x$ — a notation and concept that Gauss also worked with independently, and which laid the groundwork for the eventual proof of the Prime Number Theorem in 1896.
 
