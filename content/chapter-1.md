@@ -235,16 +235,23 @@ Additionally, German syntax treats subordinate clauses like isolated grammatical
 <details>
 
 The study of prime numbers dates back to the Ancient Greeks.
+
 Euclid's Elements is one of the most influential works in the history of mathematics. Written in c. 300 BCE, it served as the main textbook for teaching mathematics until well into the 20th century. In Book 9, Proposition 20, Euclid shows by contradiction that prime numbers continue indefinitely.
+
 Around 240 BCE, Eratosthenes devised the Sieve of Eratosthenes, a simple and systematic algorithm to find all primes up to a given limit, demonstrating an early interest in the systematic identification of prime numbers.
 Mathematical studies in Europe became relatively stagnant in the medieval period, but Islamic mathematicians like Al-Farisi (c. 1267–1319) made contributions to number theory — specifically on amicable numbers and a proof related to factorization — that would influence European mathematicians later.
+
 In the 17th century, French mathematician Pierre de Fermat explored properties of numbers that would later influence the formal development of number theory. He proposed Fermat's Little Theorem, which is foundational for understanding how primes interact with modular arithmetic.
+
 Leonhard Euler (1707–1783), a Swiss mathematician widely regarded as one of the most prolific in history, made foundational contributions to the understanding of prime numbers. Most significantly, he demonstrated that the sum of the reciprocals of all primes diverges — an early and powerful result connecting primes to analysis. He also established what is now called the Euler product formula, showing that the series ∑1ns\sum \frac{1}{n^s}
+
 ∑ns1​ can be expressed as an infinite product over all primes — a result that Riemann would later build upon when he extended the function to the complex plane as ζ(s)\zeta(s)
 ζ(s), forging a deep link between prime distribution and analytic methods that would shape number theory for centuries.
+
 Later in the 18th century, Legendre introduced the prime-counting function π(x)\pi(x)
 π(x), which counts the number of primes less than or equal to a given value xx
 x — a notation and concept that Gauss also worked with independently, and which laid the groundwork for the eventual proof of the Prime Number Theorem in 1896.
+
 Here is a simplified chronological timeline for the history of prime numbers:
 <div style="display: flex; gap: 10px; font-family: sans-serif; font-size: 0.9em;">
   <div style="flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
