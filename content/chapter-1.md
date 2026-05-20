@@ -307,6 +307,153 @@ Here is a simplified chronological timeline for the history of prime numbers:
 
 <details>
 
-*[Mathematical breakdown pending]*
+Here we will examine three things: Euclid's Proof on the Infinity of Prime Numbers (Elements, Book 9, Proposition 20), the Sieve of Eratosthenes, and the Derivation of the Euler Product Formula.
+
+---
+
+**Euclid's Proof on the Infinity of Prime Numbers (by contradiction)**
+
+Euclid's Proof on the Infinity of Prime Numbers is a classical and elegant example of proof by contradiction.
+
+In proof by contradiction, we first assume an opposite proposition to be true, which, however, leads to a contradiction of the premise — therefore, it cannot be true. The logic behind this method rests on Aristotle's Law of Non-Contradiction, i.e. a statement cannot be both true and false simultaneously.
+
+Assume, for the sake of argument, that there are only finitely many primes. List all of them:
+
+$$p_1, p_2, p_3, \ldots, p_n$$
+
+Now construct a new number:
+
+$$N = (p_1 \times p_2 \times p_3 \times \cdots \times p_n) + 1$$
+
+That is, multiply all known primes together, then add 1. Now consider two cases:
+
+**Case 1: $N$ is prime.**
+Then $N$ is a prime not on our original list, leading to a contradiction.
+
+**Case 2: $N$ is composite.**
+Then $N$ must be divisible by some prime $p$. But $p$ cannot be any of $p_1, p_2, p_3, \ldots, p_n$, because dividing $N$ by any of them leaves a remainder of 1. So $p$ is again a prime not on our list, leading to a contradiction.
+
+In either case, our assumption that the list was complete fails. Therefore, no finite list of primes can ever be complete — the primes are infinite. $\blacksquare$
+
+---
+
+**The Sieve of Eratosthenes**
+
+**The Goal**
+
+Find all prime numbers up to a given limit — say, 30.
+
+**The Logic**
+
+If a number is composite, it must have a prime factor. So if we systematically eliminate all multiples of each prime, whatever remains must be prime. Sieve is the metaphor here: you are passing numbers through a sieve, composites fall through as they get caught by their prime factors, and only primes remain.
+
+**The Steps**
+
+1. Write out all integers from 2 to 30. (1 is excluded, as it is neither prime nor composite.)
+
+$$2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30$$
+
+2. Start with 2 — the first prime. Underline it, then cross out all multiples of 2:
+
+$$2, \cancel{4}, \cancel{6}, \cancel{8}, \cancel{10}, \cancel{12}, \cancel{14}, \cancel{16}, \cancel{18}, \cancel{20}, \cancel{22}, \cancel{24}, \cancel{26}, \cancel{28}, \cancel{30}$$
+
+3. Move to 3 — the next uncrossed number, so it must be prime. Underline it, cross out all multiples of 3 not already crossed:
+
+$$\cancel{9}, \cancel{15}, \cancel{21}, \cancel{27}$$
+
+4. Move to 5 — underline it, cross out multiples of 5 not already crossed:
+
+$$\cancel{25}$$
+
+5. Move to 7 — underline it. Its first uncrossed multiple would be 49, which is already beyond 30. **Stop.**
+
+We do not need to move to the next prime 11, as all composite numbers up to 30 have already been sieved through. The rule is that every composite number $\leq n$ must have at least one prime factor $\leq \sqrt{n}$. So by the time we have cleared all multiples of primes up to $\sqrt{30} \approx 5.47$, every remaining number is guaranteed prime.
+
+**The Result**
+
+There are 10 primes below 30:
+
+$$2, 3, 5, 7, 11, 13, 17, 19, 23, 29$$
+
+However, this method has its limitations. It is simple yet labour- and memory-intensive. To find all primes up to $n$, you need to store all $n$ numbers simultaneously. For very large $n$ this becomes impractical, which is why more sophisticated algorithms were developed later. But it was a remarkable systematic method for its time, and it remains the standard teaching example for prime-finding today.
+
+---
+
+**Derivation of the Euler Product Formula**
+
+The Euler Product Formula starts with the simplest-looking infinite series — the sum of reciprocals of all natural numbers raised to a power $s$:
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^s} = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \frac{1}{5^s} + \cdots$$
+
+This was later generalised by Dirichlet into what is now called the Dirichlet series. Euler asked: is there a way to rewrite this entirely in terms of prime numbers?
+
+He knew that every positive integer $n$ can be written uniquely as a product of primes — this is the **Fundamental Theorem of Arithmetic**. For example:
+
+$$12 = 2^2 \times 3, \qquad 30 = 2 \times 3 \times 5, \qquad 100 = 2^2 \times 5^2$$
+
+Euler's insight was that this uniqueness means the sum over all positive integers can be reorganised as a product over all primes.
+
+**Recalling the Geometric Series**
+
+You have probably learned that for $|r| < 1$:
+
+$$(1 - r)^{-1} = 1 + r + r^2 + r^3 + \cdots$$
+
+The right-hand side is the infinite geometric series with first term 1 and common ratio $r$. Now substitute $r = p^{-s}$, where $p$ is a prime and $s$ is any real number greater than 1:
+
+$$\frac{1}{1 - p^{-s}} = 1 + \frac{1}{p^s} + \frac{1}{p^{2s}} + \frac{1}{p^{3s}} + \cdots$$
+
+Euler was most interested in cases where $s$ is an even positive integer, because they give beautiful closed-form answers. His most famous result was the Basel Problem (1734), which we will discuss in another section.
+
+Writing this out for the first few primes:
+
+$$p = 2: \quad \frac{1}{1-2^{-s}} = 1 + \frac{1}{2^s} + \frac{1}{2^{2s}} + \frac{1}{2^{3s}} + \cdots$$
+
+$$p = 3: \quad \frac{1}{1-3^{-s}} = 1 + \frac{1}{3^s} + \frac{1}{3^{2s}} + \frac{1}{3^{3s}} + \cdots$$
+
+$$p = 5: \quad \frac{1}{1-5^{-s}} = 1 + \frac{1}{5^s} + \frac{1}{5^{2s}} + \frac{1}{5^{3s}} + \cdots$$
+
+$$p = 7: \quad \frac{1}{1-7^{-s}} = 1 + \frac{1}{7^s} + \frac{1}{7^{2s}} + \frac{1}{7^{3s}} + \cdots$$
+
+Each factor captures all powers of one prime. Nothing more, nothing less.
+
+**What Happens When We Multiply Two Brackets?**
+
+Take $p = 2$ and $p = 3$ as an example and multiply their factors:
+
+$$\left(1 + \frac{1}{2^s} + \frac{1}{4^s} + \frac{1}{8^s} + \cdots\right) \times \left(1 + \frac{1}{3^s} + \frac{1}{9^s} + \frac{1}{27^s} + \cdots\right)$$
+
+When you expand two brackets, every term in the first bracket pairs with every term in the second bracket:
+
+$$1 + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{6^s} + \frac{1}{4^s} + \frac{1}{12^s} + \cdots$$
+
+Notice what numbers are appearing in the denominators: $1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 27, \ldots$ These are precisely all positive integers whose only prime factors are 2 and 3. Each one appears exactly once, because there is only one way to write any such number as a product of powers of 2 and 3.
+
+**Bringing in All the Primes**
+
+When we multiply in the factors for all primes, the denominators cover every positive integer, because every positive integer is built from primes, and we have accounted for all primes. For example:
+
+$$\frac{1}{2^s} \cdot \frac{1}{3^s} \cdot 1 \cdot 1 \cdots = \frac{1}{6^s}$$
+
+$$\frac{1}{4^s} \cdot \frac{1}{3^s} \cdot 1 \cdot 1 \cdots = \frac{1}{12^s}$$
+
+By unique factorization, every positive integer appears exactly once this way. So the product equals the sum:
+
+$$\prod_{p\ \text{prime}} \frac{1}{1-p^{-s}} = \sum_{n=1}^{\infty} \frac{1}{n^s}$$
+
+This is the **Euler Product Formula**.
+
+> [!note] The Sieve in Reverse
+> We can see this as the opposite process of the Sieve of Eratosthenes. The Sieve starts with all integers and progressively removes composites by knocking out multiples of each prime, until only primes remain. The Euler Product starts with all primes and progressively builds up all integers by multiplying their geometric series together, until every integer is accounted for.
+
+The left side knows only about primes. The right side knows only about positive integers. The formula says they are the same object: the multiplicative structure of the primes and the additive structure of the integers are two faces of the same thing.
+
+**The Bridge to Riemann**
+
+While Euler worked with this formula for real values of $s > 1$, Riemann extended $s$ to complex numbers $s = \sigma + it$. This extension — the function central to the paper we are examining here — is the **Riemann zeta function**:
+
+$$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = \prod_{p\ \text{prime}} \frac{1}{1-p^{-s}}$$
+
+It is here that the distribution of primes becomes encoded in the *zeros* of $\zeta(s)$ in the complex plane, leading directly to the Prime Number Theorem and the still-unsolved Riemann Hypothesis.
 
 </details>
