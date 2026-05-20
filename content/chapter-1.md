@@ -353,19 +353,21 @@ If a number is composite, it must have a prime factor. So if we systematically e
 
 $$2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30$$
 
-2. Start with 2 — the first prime. Underline it, then cross out all multiples of 2:
+2. Start with $\boxed{2}$ — the first prime. Then cross out all multiples of 2:
 
-$$2, \cancel{4}, \cancel{6}, \cancel{8}, \cancel{10}, \cancel{12}, \cancel{14}, \cancel{16}, \cancel{18}, \cancel{20}, \cancel{22}, \cancel{24}, \cancel{26}, \cancel{28}, \cancel{30}$$
+$$\boxed{2}, 3, \cancel{4}, 5, \cancel{6}, 7, \cancel{8}, 9, \cancel{10}, 11, \cancel{12}, 13, \cancel{14}, 15, \cancel{16}, 17, \cancel{18}, 19, \cancel{20}, 21, \cancel{22}, 23, \cancel{24}, 25, \cancel{26}, 27, \cancel{28}, 29, \cancel{30}$$
 
-3. Move to 3 — the next uncrossed number, so it must be prime. Underline it, cross out all multiples of 3 not already crossed:
+3. Move to $\boxed{3}$ — the next uncrossed number, so it must be prime. Cross out all multiples of 3 not already crossed:
 
-$$\cancel{9}, \cancel{15}, \cancel{21}, \cancel{27}$$
+$$\boxed{2}, \boxed{3}, \cancel{4}, 5, \cancel{6}, 7, \cancel{8}, \cancel{9}, \cancel{10}, 11, \cancel{12}, 13, \cancel{14}, \cancel{15}, \cancel{16}, 17, \cancel{18}, 19, \cancel{20}, \cancel{21}, \cancel{22}, 23, \cancel{24}, 25, \cancel{26}, \cancel{27}, \cancel{28}, 29, \cancel{30}$$
 
-4. Move to 5 — underline it, cross out multiples of 5 not already crossed:
+4. Move to $\boxed{5}$ — cross out multiples of 5 not already crossed:
 
-$$\cancel{25}$$
+$$\boxed{2}, \boxed{3}, \cancel{4}, \boxed{5}, \cancel{6}, 7, \cancel{8}, \cancel{9}, \cancel{10}, 11, \cancel{12}, 13, \cancel{14}, \cancel{15}, \cancel{16}, 17, \cancel{18}, 19, \cancel{20}, \cancel{21}, \cancel{22}, 23, \cancel{24}, \cancel{25}, \cancel{26}, \cancel{27}, \cancel{28}, 29, \cancel{30}$$
 
-5. Move to 7 — underline it. Its first uncrossed multiple would be 49, which is already beyond 30. **Stop.**
+5. Move to $\boxed{7}$ — its first uncrossed multiple would be 49, which is already beyond 30. **Stop.**
+
+$$\boxed{2}, \boxed{3}, \cancel{4}, \boxed{5}, \cancel{6}, \boxed{7}, \cancel{8}, \cancel{9}, \cancel{10}, 11, \cancel{12}, 13, \cancel{14}, \cancel{15}, \cancel{16}, 17, \cancel{18}, 19, \cancel{20}, \cancel{21}, \cancel{22}, 23, \cancel{24}, \cancel{25}, \cancel{26}, \cancel{27}, \cancel{28}, 29, \cancel{30}$$
 
 We do not need to move to the next prime 11, as all composite numbers up to 30 have already been sieved through. The rule is that every composite number $\leq n$ must have at least one prime factor $\leq \sqrt{n}$. So by the time we have cleared all multiples of primes up to $\sqrt{30} \approx 5.47$, every remaining number is guaranteed prime.
 
@@ -437,14 +439,14 @@ $$\frac{1}{2^s} \cdot \frac{1}{3^s} \cdot 1 \cdot 1 \cdots = \frac{1}{6^s}$$
 
 $$\frac{1}{4^s} \cdot \frac{1}{3^s} \cdot 1 \cdot 1 \cdots = \frac{1}{12^s}$$
 
+> [!note] The Sieve in Reverse
+> We can see this as the opposite process of the Sieve of Eratosthenes. The Sieve starts with all integers and progressively removes composites by knocking out multiples of each prime, until only primes remain. The Euler Product starts with all primes and progressively builds up all integers by multiplying their geometric series together, until every integer is accounted for.
+
 By unique factorization, every positive integer appears exactly once this way. So the product equals the sum:
 
 $$\prod_{p\ \text{prime}} \frac{1}{1-p^{-s}} = \sum_{n=1}^{\infty} \frac{1}{n^s}$$
 
 This is the **Euler Product Formula**.
-
-> [!note] The Sieve in Reverse
-> We can see this as the opposite process of the Sieve of Eratosthenes. The Sieve starts with all integers and progressively removes composites by knocking out multiples of each prime, until only primes remain. The Euler Product starts with all primes and progressively builds up all integers by multiplying their geometric series together, until every integer is accounted for.
 
 The left side knows only about primes. The right side knows only about positive integers. The formula says they are the same object: the multiplicative structure of the primes and the additive structure of the integers are two faces of the same thing.
 
