@@ -550,3 +550,8 @@ This is another complex sentence — the sub-clause is inserted to specify and g
 | $\zeta(s)$ | — | accusative | governed by *durch* |
 
 </details>
+
+### II. THE HISTORY
+Details Pending
+### III. THE MATHEMATICS
+Details Pending
