@@ -463,10 +463,10 @@ It is here that the distribution of primes becomes encoded in the *zeros* of $\z
 ## 3. Drei (Sentence 3)
 
 > [!quote] Original Text
-> “Die Function der complexen Veränderlichen s, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird, bezeichne ich durch $\zeta(s)$.”
-
-> [!abstract] Translation
-> The function of the complex variable $s$, which is represented by these two expressions so long as they converge, I denote by $\zeta(s)$.
+> “Die Function der complexen Veränderlichen $s$, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird, bezeichne ich durch $\zeta(s)$.”
+ 
+> [!abstract] David R. Wilkins Translation (Preliminary Version 1998)
+> “The function of the complex variable $s$ which is represented by these two expressions, wherever they converge, I denote by $\zeta(s)$.”
 
 ### I. THE LANGUAGE
 
