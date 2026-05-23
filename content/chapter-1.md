@@ -519,10 +519,10 @@ Case is triggered by three things:
 - **Structural roles** — possession, apposition, etc.
 
 #### Applying this to the sentence
-
-> <span style="color:#2b6cb0">**Die Funktion der complexen Veränderlichen s**</span><span style="color:#dd6b20">**, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird,**</span> <span style="color:#b7791f">**bezeichne ich**</span> <span style="color:#4a5568">**durch $\zeta(s)$**</span>**.**
-
-(<span style="color:#2b6cb0">**Accusative Object**</span> — <span style="color:#dd6b20">**Sub-clause**</span> — <span style="color:#b7791f">**Verb–Subject**</span> — <span style="color:#4a5568">**Prepositional Complement**</span>)
+ 
+> <span style="color:#c0392b">**Die Funktion der complexen Veränderlichen s**</span><span style="color:#dd6b20">**, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird,**</span> <span style="color:#b7791f">**bezeichne**</span> <span style="color:#2b6cb0">**ich**</span> <span style="color:#4a5568">**durch $\zeta(s)$**</span>**.**
+ 
+(<span style="color:#c0392b">**Accusative Object**</span> — <span style="color:#dd6b20">**Sub-clause**</span> — <span style="color:#b7791f">**Verb**</span> – <span style="color:#2b6cb0">**Subject**</span> — <span style="color:#4a5568">**Prepositional Complement**</span>)
 
 *(complexen and convergiren are old spellings; modern German writes komplexen, konvergieren.)*
 
