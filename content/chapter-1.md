@@ -459,3 +459,94 @@ $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = \prod_{p\ \text{prime}} \frac{1
 It is here that the distribution of primes becomes encoded in the *zeros* of $\zeta(s)$ in the complex plane, leading directly to the Prime Number Theorem and the still-unsolved Riemann Hypothesis.
 
 </details>
+
+## 3. Drei (Sentence 3)
+
+> [!quote] Original Text
+> “Die Function der complexen Veränderlichen s, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird, bezeichne ich durch $\zeta(s)$.”
+
+> [!abstract] Translation
+> The function of the complex variable $s$, which is represented by these two expressions so long as they converge, I denote by $\zeta(s)$.
+
+### I. THE LANGUAGE
+
+<details>
+
+#### Genders
+
+German nouns have three genders — feminine, masculine, neuter — and the word for "the" changes with each:
+
+- **der** — masculine (*der Mann, der Ausdruck*)
+- **die** — feminine (*die Frau, die Funktion*)
+- **das** — neuter (*das Kind, das Buch*)
+
+**die** also covers all plurals, regardless of gender.
+
+Gender rarely tracks biological sex or cultural logic — e.g., *das Mädchen* (girl) is neuter because the diminutive suffix *-chen* forces *das*. Endings are the most reliable clue:
+
+- **die** — nouns ending in *-ung, -heit, -keit, -schaft, -ion, -tät, -e*
+- **der** — nouns ending in *-er, -ling, -ismus*; days, months, seasons
+- **das** — nouns ending in *-chen, -lein, -ment, -um*; infinitives used as nouns
+
+#### Cases
+
+While English mostly uses word order to show who does what to whom, German uses **cases** — markers on the article (and sometimes the noun) that tag each noun's role:
+
+- **Nominativ** — the subject. *Die Funktion ist korrekt.* (The function is correct.)
+- **Akkusativ** — the direct object. *Ich bezeichne die Funktion.* (I denote the function.)
+- **Dativ** — the indirect object / recipient. *Ich gebe dem Mann den Ausdruck.* (I give the expression to the man.)
+- **Genitiv** — possession. *Die Funktion der Veränderlichen.* (The function of the variable.)
+
+The article shifts with both gender and case:
+
+|         | Masc. | Fem. | Neut. | Plural |
+| :------ | :---: | :--: | :---: | :----: |
+| **Nom.** | der   | die  | das   | die    |
+| **Akk.** | den   | die  | das   | die    |
+| **Dat.** | dem   | der  | dem   | den    |
+| **Gen.** | des   | der  | des   | der    |
+
+Notice that feminine **die** looks identical in nominative and accusative — this matters for our sentence below.
+
+Case is triggered by three things:
+
+- **The verb** — most take accusative objects (*sehen, haben*), but a few always take dative (*helfen, danken, gefallen*).
+- **Prepositions** — each one governs a fixed case:
+  - Accusative: *durch, für, gegen, ohne, um*
+  - Dative: *aus, bei, mit, nach, seit, von, zu*
+  - Genitive: *während, trotz, wegen, statt*
+  - Two-way (*an, auf, in, über, unter, vor* …): accusative for motion toward, dative for static location. *Ich gehe in die Küche* (motion) vs. *Ich bin in der Küche* (location).
+- **Structural roles** — possession, apposition, etc.
+
+#### Applying this to the sentence
+
+> <span style="color:#2b6cb0">**Die Funktion der complexen Veränderlichen s**</span><span style="color:#dd6b20">**, welche durch diese beiden Ausdrücke, so lange sie convergiren, dargestellt wird,**</span> <span style="color:#b7791f">**bezeichne ich**</span> <span style="color:#4a5568">**durch $\zeta(s)$**</span>**.**
+
+(<span style="color:#2b6cb0">**Accusative Object**</span> — <span style="color:#dd6b20">**Sub-clause**</span> — <span style="color:#b7791f">**Verb–Subject**</span> — <span style="color:#4a5568">**Prepositional Complement**</span>)
+
+*(complexen and convergiren are old spellings; modern German writes komplexen, konvergieren.)*
+
+This is another complex sentence — the sub-clause is inserted to specify and give additional information about "the function." Stripping away the additions and sub-clauses, the skeleton becomes:
+
+> ***Ich bezeichne die Funktion durch $\zeta(s)$.***
+>
+> *I denote the function by $\zeta(s)$.*
+
+…and *der complexen Veränderlichen s* is there to describe *which* function.
+
+*welche* refers back to *die Funktion*, and is the **nominative** subject of the passive verb *dargestellt wird* inside the sub-clause. (Feminine nominative and accusative both look like *die / welche*, which is the trap — but the verb tells you it's nominative: the function is the thing *being* represented.)
+
+*$\zeta(s)$* is accusative because it follows *durch*.
+
+| Phrase | Gender | Case | Why |
+| :--- | :--- | :--- | :--- |
+| die Funktion | fem. | accusative | direct object of *bezeichne* |
+| der komplexen Veränderlichen | fem. | genitive | "of the variable" — modifies *Funktion* |
+| s | — | apposition | names the variable |
+| welche | fem. | nominative | subject of passive *dargestellt wird*; refers to *Funktion* |
+| diese beiden Ausdrücke | masc. pl. | accusative | governed by *durch* |
+| sie | masc. pl. | nominative | subject of *konvergieren*; refers to *Ausdrücke* |
+| ich | — | nominative | subject of main clause |
+| $\zeta(s)$ | — | accusative | governed by *durch* |
+
+</details>
