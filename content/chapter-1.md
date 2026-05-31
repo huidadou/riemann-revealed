@@ -562,10 +562,14 @@ Details Pending
 > “Beide convergiren nur, so lange der reelle Theil von $s$ grösser als $1$ ist; es lässt sich indess leicht ein immer gültig bleibender Ausdruck der Function finden.”
  
 > [!abstract] David R. Wilkins Translation (Preliminary Version 1998)
-> “Both expressions converge only when the real part of $s$ is greater than $1$ at the same time an expression for the function can easily be found which always remains valid.”
+> “Both expressions converge only when the real part of $s$ is greater than $1$; at the same time an expression for the function can easily be found which always remains valid.”
 
 ### I. THE LANGUAGE
-Details Pending
+
+<details>
+
+</details>
+
 ### II. THE HISTORY
 Details Pending
 ### III. THE MATHEMATICS
