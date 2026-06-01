@@ -568,6 +568,49 @@ Details Pending
 
 <details>
 
+#### Lasssen
+We are going to talk about the “lassen” sentence structure, whose breadth and productivity are exceptional in German.
+German utilizes lassen to cover a spectrum that other languages might split between several distinct verbs:
+
+1.“To leave”:
+Example: Ich habe meinen Regenschirm im Zug gelassen.
+Translation: "I left my umbrella on the train."
+
+2.“to allow”:
+Example: Meine Eltern lassen mich am Wochenende länger ausgehen.
+Translation: "My parents let me stay out later on the weekend."
+
+3.“to quit”:
+Example: Lass das! Es ist nicht gut für dich.
+Translation: "Stop that! It’s not good for you."
+
+4."to cause (to be done),"
+Example: Ich habe mein Auto letzte Woche reparieren lassen.
+Translation: "I had my car repaired last week."
+
+#### Sich lasssen
+When it’s used in the reflective sense (sich lassen), meaning "to be possible" 
+Example:
+“Beide convergiren nur, so lange der reelle Theil von s grösser als 1 ist; es lässt sich indess leicht ein immer gültig bleibender Ausdruck der Function finden.”
+
+Literal translation: "It lets itself be found."
+Contextual meaning: "It can be found" or "It is possible to find."
+
+This is a classic example of the German "passive-like" reflexive construction involving lassen.
+Here, “es lässt sich finden” functions as an equivalent to the English passive voice or the "can be" construction:
+
+#### Purposes in the Context
+In the context of this paper, th usage of “sich lassen” serves two specific purposes:
+1.Impersonal Authority: 
+This structure is used in academic German to achieve an objective, formal tone. By using sich lassen, the author avoids naming a specific agent (i.e., "I find" or "we find"). It places the focus entirely on the possibility and the mathematical inevitability of the discovery rather than the action of the researcher.
+
+2. Structural Elegance: 
+
+The lassen construction integrates seamlessly into the German sentence structure . By placing sich early and finden at the end, Riemann creates a balanced, rhythmic tension that is common in 19th-century scientific prose. It allows him to delay the main verb (finden/find) while clarifying the nature of the existence (Aisdruck der Function/expression of the function) in the middle of the "bracket."
+
+If Riemann had used a standard passive construction, he would have written: ... es kann leicht ein ... Ausdruck ... gefunden werden.
+While grammatically correct, this would be clunkier and less idiomatic in scientific writing. The sich lassen construction is more "elegant" because it uses the active verb lassen in a reflexive way, which feels more natural to a native speaker when discussing what a mathematical object "permits" or "allows" to be done to it.
+
 </details>
 
 ### II. THE HISTORY
